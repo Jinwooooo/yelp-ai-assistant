@@ -1,9 +1,9 @@
 fastapi
 uvicorn[standard]
-cassandra-driver      # Cassandra driver
-elasticsearch         # Elasticsearch official client
-pydantic-settings     # Environment variable management
-openai                # For LLM generation & embeddings
-python-dotenv         # Loading .env files
-loguru                # Clean, structured logging
-httpx                 # Async HTTP client
+cassandra-driver
+elasticsearch
+pydantic-settings
+google-generativeai   # For Gemini LLM and Embeddings
+python-dotenv
+loguru
+httpx
